@@ -1,7 +1,7 @@
 <?php
     $user = 'root';
-    $pass = '123456abc';
-    $dbh = new PDO('mysql:host=localhost;dbname=1906blog', $user, $pass);
+    $pass = 'root';
+    $dbh = new PDO('mysql:host=192.168.93.1;dbname=1906blog', $user, $pass);
 
     $username = $_POST['username'];
     $password = md5($_POST['password']);
